@@ -1,0 +1,10 @@
+/*
+cor de fundo -> #F8F7F4
+cor para a fonte -> #2C3E50
+cor de destaque -> #3498DB
+*/
+
+html{
+    background: #F8F7F4;
+    color: #2C3E50;
+}
