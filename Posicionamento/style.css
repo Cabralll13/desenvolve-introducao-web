@@ -1,0 +1,105 @@
+/*
+cor de fundo -> #F8F7F4
+cor para a fonte -> #2C3E50
+cor de destaque -> #3498DB
+*/
+
+html {
+    background: #F8F7F4;
+    color: #2C3E50;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+#zen-intro header {
+    background-color: #2C3E50;
+    color: #F8F7F4;
+}
+
+#zen-intro {
+    height: 550px;
+}
+
+#design-archives {
+    display: none;
+}
+
+#zen-intro header h1, #zen-intro header h2 {
+    display: inline-block;
+}
+
+#zen-intro header h1 {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+aside ul li {
+    margin: 1em;
+    text-align: center;
+}
+
+p {
+    text-indent: 1em;
+}
+
+h1 {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.summary {
+    text-align: center;
+}
+
+.main p {
+    line-height: 1.5;
+}
+
+abbr {
+    font-variant: small-caps;
+}
+
+.main footer {
+    margin: 4%;
+}
+
+.main footer a {
+    border: solid 2px #2C3E50;
+    padding: 0.5rem;
+    display: inline-block;
+}
+
+.page-wrapper {
+    position: relative;
+}
+
+.explanation {
+    width: 60%;
+    border-right: #2C3E50 solid 1px;
+    padding-right: 2%;
+}
+
+.design-selection {
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
