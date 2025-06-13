@@ -1,0 +1,119 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arial', serif;
+  color: #0B3954;
+}
+
+html {
+  font-family: 'Lato', sans-serif;
+  background-color: #f8f9fa;
+}
+
+p, ul {
+    color: #2F3E46;
+}
+
+a:hover {
+    color: #2F3E46;
+}
+
+footer {
+    background-color: #00A7E1;
+}
+
+footer p {
+    color: #f8f9fa;
+}
+
+footer ul, footer a{
+    color: #f8f9fa;
+}
+
+footer a:hover {
+    color: #2F3E46;
+}
+
+
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #00A7E1;
+    padding: 5px 0;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+}
+
+.menu ul li {
+    margin: 0 10px; 
+}
+
+.menu ul li a {
+    color: #f8f9fa;
+    text-decoration: none;
+    padding: 8px 12px; 
+    display: block;
+}
+
+.menu ul li a:hover {
+    color: #2F3E46;
+}
+
+body {
+    padding-top: 50px; 
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        padding: 10px 0;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu ul li {
+        margin: 5px 0; 
+    }
+
+    .menu ul li a {
+        font-size: 1em;
+        padding: 10px 15px;
+    }
+
+    body {
+        padding-top: 300px;
+    }
+}
+
+.apresentacao-conteudo .foto img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.apresentacao-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.educacao, .experiencia {
+    display: flex;
+    flex-direction: column;
+}
+body, html {
+    margin: 0;  
+}
